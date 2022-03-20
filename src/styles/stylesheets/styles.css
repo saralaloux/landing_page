@@ -1,0 +1,82 @@
+header .white_background {
+  width: 100%;
+  background-color: white;
+}
+
+header .white_background a img {
+  width: 200px;
+  margin: 2rem;
+}
+
+main {
+  background: url("../../../assets/auberge.png") no-repeat;
+  height: 600px;
+  text-align: center;
+}
+
+main .text_header {
+  color: #335567;
+}
+
+main .text_header h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  padding-top: 3rem;
+}
+
+main .text_header h1 span {
+  font-family: 'Satisfy', cursive;
+  font-size: 3rem;
+}
+
+main .text_header button {
+  font-family: 'Roboto', sans-serif;
+  background-color: orange;
+  height: 3rem;
+  border: none;
+  border-radius: 20px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+}
+
+main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main form input {
+  border-radius: 20px;
+  border: 1px solid orange;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+}
+
+main form button {
+  height: 3rem;
+  border: none;
+  border-radius: 20px;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+main form button:hover {
+  background-color: orange;
+}
+
+footer {
+  background-color: #335567;
+  height: 100px;
+}
